@@ -49,7 +49,7 @@ section div img {
     object-fit: contain;
 }
 li div {
-    padding: 10px;
+    padding: 5px;
 }
 h5 {
     margin: 0.2rem;
@@ -97,7 +97,16 @@ div.boton {
     justify-content: center;
 }
 li.cajaprofile {
+    display: flex;
+    flex-flow: row wrap;
     height: 5rem;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+li.cajaprofile div {
+    display: flex;
+    flex-flow: row wrap;
 }
 li.cajaprofile div img {
     width: 50px;
@@ -105,15 +114,10 @@ li.cajaprofile div img {
 li.cajaprofile div p {
     color: grey;
     font-size: 0.8rem;
-    margin: 1px 10px 1px 2px
+    margin: 2%;
 }
 i {
     font-size: 1.8rem;
     margin: 0 7px;
     color: #BEC1BB;
 }
-.roboto-light {
-    font-family: "Roboto", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
