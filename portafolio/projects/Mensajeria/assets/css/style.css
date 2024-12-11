@@ -1,0 +1,119 @@
+body {
+    margin: 0%;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+
+}
+nav {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0%;
+    width: 20rem;
+}
+section {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0%;
+    flex:1;
+    justify-content: center;
+    align-content: center;
+}
+section div {
+    text-align: center;
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+}
+li{
+    height: 6rem;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid #BEC1BB;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+li div img {
+    width: 65px;
+    border-radius: 200px;
+}
+section div img {
+    border-radius: 20px;
+    height: 400px;
+    object-fit: contain;
+}
+li div {
+    padding: 10px;
+}
+h5 {
+    margin: 0.2rem;
+    font-size: 1.3rem;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+h4 {
+    margin: 0;
+    padding: 5px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+h3 {
+    margin: 1rem;
+    font-size: 3rem;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+p {
+    margin: 0.5rem;
+    font: 1.7rem;
+    color: rgb(39, 39, 39);
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+li.cajaboton {
+    height: 8rem;
+}
+
+div.boton {
+    justify-content: center;
+    align-items: center;
+    background-color: #A491d2 ;
+    width: 180px;
+    height: 30px;
+    justify-content: center;
+}
+li.cajaprofile {
+    height: 5rem;
+}
+li.cajaprofile div img {
+    width: 50px;
+}
+li.cajaprofile div p {
+    color: grey;
+    font-size: 0.8rem;
+    margin: 1px 10px 1px 2px
+}
+i {
+    font-size: 1.8rem;
+    margin: 0 7px;
+    color: #BEC1BB;
+}
+.roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
