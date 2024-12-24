@@ -432,6 +432,7 @@ article.barra{
         font-family: "Roboto", serif;
         font-weight: 200;
         font-style: normal;
+        justify-content: center;
     }
     .aboutme p {
         font-size: clamp(13px, 14px, 16px);
