@@ -40,6 +40,8 @@ function comprando (){
         }
         else if(cart === null || cart === ""){
             compra.innerHTML = "Inicie su compra <br> ingresando la cantidad deseada"
+            compra.style.color = "red";
+            compra.style.backgroundColor = "white";
         }
         else {
             compra.innerHTML = "- ERROR - <br> Ingrese Numeros";
@@ -161,6 +163,7 @@ function clave () {
 
 function comprar() {
     let showKText = showK.map(element => element.innerText).join('');
+    console.log(showKText)
     if(showKText == pw1){
         resultadoCheck.innerHTML = "PW 1 CORRECTA"
     }
@@ -169,7 +172,6 @@ function comprar() {
     }
     else{
         resultadoCheck.innerHTML = "PW INCORRECTA"
-        console.log(showKText)
     }
     showKText ="000"
 }
