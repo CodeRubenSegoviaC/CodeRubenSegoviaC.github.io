@@ -13,14 +13,16 @@ document.addEventListener('keydown', function (event) {
 });
 
 document.addEventListener('keydown', function (event) {
+    if(event.key === 'q' || event.key === 'w' || event.key === 'e' ){
     cuadro2.classList.remove('inactive');
-    if (event.key === 'q') {
-        cuadro2.style.backgroundColor= 'purple'
-    } 
-    else if (event.key === 'w') {
-        cuadro2.style.backgroundColor= 'grey'
-    }
-    else if (event.key === 'e') {
-        cuadro2.style.backgroundColor= 'brown'
+        if (event.key === 'q') {
+            cuadro2.style.backgroundColor= 'purple'
+        } 
+        else if (event.key === 'w') {
+            cuadro2.style.backgroundColor= 'grey'
+        }
+        else if (event.key === 'e') {
+            cuadro2.style.backgroundColor= 'brown'
+        }
     }
 });
