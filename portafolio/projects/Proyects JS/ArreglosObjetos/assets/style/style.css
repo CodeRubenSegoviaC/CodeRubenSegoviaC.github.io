@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+ header div{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items: end;
+    gap: 20%;
+    font-size: 20px;
+    width: 33vw;
+ }
+ header div:nth-child(1){
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ header div:nth-child(3){
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 8vh;
+    color: aliceblue;
+    border-radius: 50px;
+    margin: 10px;
+ }
+header div:nth-child(3) p{
+margin: 0;
+padding: 10px 0 0 0;
+ }
+h1 {
+    display: none;
+}
+main {
+    min-height: 75vh;
+    max-height: 85vh;
+    width: 100vw;
+    color: white;
+    background-color: black;
+}
+.rents, .sells {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    min-width: 1000px;
+    overflow: auto;
+}
+.rent0, .sell0{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(255, 255, 217);
+    height: 33vh;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 6%;
+    text-align: center;
+    border-radius: 40px;
+    margin: 0.5%;
+    transition: background-color 0.7s ease-in;
+}
+.rent0:hover, .sell0:hover {
+    background-color: aqua;
+}
+.rent1 ,.rent2 ,.rent3 ,.sell1 ,.sell2 ,.sell3{
+    display: flex;
+    flex-flow: row wrap;
+    width: 29%;
+    height: 33vh;
+    justify-content: space-evenly;
+    align-items: end;
+    background-color: white;
+    margin-top: 10px;
+    margin: 0.5%;
+    border-radius: 8px;
+    color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(10);
+
+}
+.rent1:hover, .rent2:hover, .rent3:hover, .sell1:hover, .sell2:hover, .sell3:hover {
+    filter: grayscale(0);
+    transition: filter 0.4s ease-in-out ;
+}
+.fondo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: end;
+    width: 50%;
+    height: 17%;
+    padding-bottom: 15px ;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.612);
+}
+.caracteristica {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-content: end;
+    background-color: white;
+    margin-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    gap: 5px;
+    text-align: center;
+}
+footer {
+    display: flex;
+    max-height: 5vh;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+}
+footer div {
+    color: white;
+    font-size: 30px;
+}
+i.fa-circle-xmark {
+    color: red;
+}
+i.fa-circle-check {
+    color: green;
+}
+i.fa-solid:not(.fa-arrow-right) {
+    box-shadow: 1px 1px 1px 1px white,
+                -1px -1px 1px 5px white;
+    background-color: white;
+    border-radius: 1px;
+    text-shadow: 1px 1px 1px whitesmoke;
+}
