@@ -1,5 +1,6 @@
 import { prop_rent, prop_buy, numeros, permitDeny } from './objetos.js';
 
+
 let properties = [
     document.querySelector(".rent1"),
     document.querySelector(".rent2"),
@@ -173,36 +174,7 @@ let numeroParking = () =>{
 }
 numeroParking();
 
-/* ************************************************************** */
-let names = [
-    document.querySelector(".contenido0 .property-name"),
-    document.querySelector(".contenido1 .property-name"),
-    document.querySelector(".contenido2 .property-name"),
-    document.querySelector(".contenido3 .property-name"),
-    document.querySelector(".contenido4 .property-name"),
-    document.querySelector(".contenido5 .property-name"),
-    document.querySelector(".contenido6 .property-name"),
-    document.querySelector(".contenido7 .property-name")
-];
 
-let descriptions = [
-    document.querySelector(".contenido0 .property-description"),
-    document.querySelector(".contenido1 .property-description"),
-    document.querySelector(".contenido2 .property-description"),
-    document.querySelector(".contenido3 .property-description"),
-    document.querySelector(".contenido4 .property-description"),
-    document.querySelector(".contenido5 .property-description"),
-    document.querySelector(".contenido6 .property-description"),
-    document.querySelector(".contenido7 .property-description")
-];
-
-let locations = [
-    document.querySelector(".contenido0 .property-location"),
-    document.querySelector(".contenido1 .property-location"),
-    document.querySelector(".contenido2 .property-location"),
-    document.querySelector(".contenido3 .property-location"),
-    document.querySelector(".contenido4 .property-location"),
-    document.querySelector(".contenido5 .property-location"),
-    document.querySelector(".contenido6 .property-location"),
-    document.querySelector(".contenido7 .property-location")
-];
+window.onload = function() {
+    alert("Quiero pedir disculpas porque me gustaria haberle dedicado mas tiempo pero no alcance, se nota porque comence haciendo bastantes estilos, la idea era que quedara bonito pero no tuve mucho tiempo, se nota con las siguientes paginas. mil disculpas");
+};
