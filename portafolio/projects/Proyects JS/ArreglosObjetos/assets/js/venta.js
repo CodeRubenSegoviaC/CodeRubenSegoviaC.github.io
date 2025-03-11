@@ -147,15 +147,24 @@ let recorrer = () => {
         roomss[i].nextSibling.textContent = getHabitaciones;
         bathrooms[i].nextSibling.textContent = getBanos;
         parkings[i].nextSibling.textContent = getParking;
-        if(getPets){getPets='Mascotas Permitidas  '}
-        else{getPets='Mascotas NO Permitidas' }
+        if(getPets){
+            getPets='Mascotas Permitidas';
+            petss[i].nextElementSibling.style.backgroundColor = "#90EE90";  }
+        else{
+            getPets='Mascotas NO Permitidas';
+            petss[i].nextElementSibling.style.backgroundColor = "salmon"; 
+         }
         petss[i].nextSibling.textContent = getPets;
-        if(getSmoke){getSmoke='Fumar Permitido  '}
-        else{getSmoke='Fumar NO Permitido' }
+        if(getSmoke){
+            getSmoke='Fumar Permitido  ';
+            smoke[i].nextElementSibling.style.backgroundColor = "#90EE90";
+        }
+        else{
+            getSmoke='Fumar NO Permitido';
+            smoke[i].nextElementSibling.style.backgroundColor = "salmon"; }
         smoke[i].nextSibling.textContent = getSmoke;
         costs[i].nextSibling.textContent = getCosto;
         photo[i].src = getSrc[1];
-
 
 /*         console.log('Nombre:', getNombre);
         console.log('Src:', getSrc);
