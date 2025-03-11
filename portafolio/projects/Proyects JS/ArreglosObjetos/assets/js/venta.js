@@ -147,7 +147,11 @@ let recorrer = () => {
         roomss[i].nextSibling.textContent = getHabitaciones;
         bathrooms[i].nextSibling.textContent = getBanos;
         parkings[i].nextSibling.textContent = getParking;
+        if(getPets){getPets='Mascotas Permitidas  '}
+        else{getPets='Mascotas NO Permitidas' }
         petss[i].nextSibling.textContent = getPets;
+        if(getSmoke){getSmoke='Fumar Permitido  '}
+        else{getSmoke='Fumar NO Permitido' }
         smoke[i].nextSibling.textContent = getSmoke;
         costs[i].nextSibling.textContent = getCosto;
         photo[i].src = getSrc[1];
