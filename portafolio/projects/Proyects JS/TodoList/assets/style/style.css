@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 60vw;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(238, 238, 238);
+    gap: 10px;
+}
+button{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+input {
+    width: 40%;
+    height: 20px;
+    border-radius: 5px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+div.resultados {
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 40vh;
+    justify-content: start;
+    align-items: start;
+}
+div.sumario {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 40%;
+}
+div.sumario div {
+    display: flex;
+    gap: 10px;
+}
+div.tareas {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: end;
+    min-width: 30%;
+}
+.intro{
+    min-width: 150px;
+}
+button.delete {
+    background-color: salmon;
+}
+button.done {
+    background-color: skyblue;
+}
