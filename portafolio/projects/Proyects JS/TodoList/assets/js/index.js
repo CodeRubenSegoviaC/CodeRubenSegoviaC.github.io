@@ -58,10 +58,14 @@ function clearTask(id) {
     taskHistory[id][1] = 'Realizado';
     taskList.splice(taskList.length-1, 1); 
     hechos++; 
-    contador();
+    if(taskHistory[id][1] != 'Realizado'){
+        contador();
+        console.log(taskHistory[id][1])
+    }
     if (fila) {
         fila.style.backgroundColor='green';
     }
+    console.log(taskHistory[id][1])
     doneTotal.nextElementSibling.innerText = hechos;
 }
 
@@ -71,6 +75,5 @@ function realizadosTotal() {
 
 realizadosTotal();
 agregarTask.addEventListener("click", addTask);
-
 
 showHistory();

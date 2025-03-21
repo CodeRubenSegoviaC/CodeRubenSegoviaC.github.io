@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Conversor De Monedas</h1>
+    </header>
+    <main>
+        <div>
+            <form action="">
+                <label for="nombre">Valor en Chilean Pesos: </label>
+                <input type="number" id="valorCLP" name="valorCLP" placeholder="introduce valor en clp" required>
+            </form>
+            <label for="seleCoin">Selecciona tu Moneda:</label>
+            <select id="coins" name="moneda">
+
+            </select>
+            <input id="calcular" type="submit" value="CONVERTIR">
+            <div class="valorActual"> Calculando ...</div>
+        </div>
+        
+        <div>
+            <canvas id="myChartCoin">
+
+            </canvas>
+        </div>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
