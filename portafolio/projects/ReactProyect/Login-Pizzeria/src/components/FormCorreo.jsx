@@ -65,7 +65,7 @@ function Registro({ onCancelar }) {
           placeholder="Correo electrónico"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-        />
+        /><br/>
         {errores.email && <p>{errores.email}</p>}
 
         <input
@@ -73,7 +73,7 @@ function Registro({ onCancelar }) {
           placeholder="Contraseña"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-        />
+        /><br/>
         {errores.password && <p>{errores.password}</p>}
 
         <input
@@ -81,7 +81,7 @@ function Registro({ onCancelar }) {
           placeholder="Confirmar contraseña"
           value={confirmarPassword}
           onChange={(e) => setConfirmarPassword(e.target.value)}
-        />
+        /><br/>
         {errores.confirmarPassword && <p>{errores.confirmarPassword}</p>}
 
         <button type="submit">Registrarse</button>
