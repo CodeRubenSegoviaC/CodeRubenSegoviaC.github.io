@@ -30,6 +30,8 @@ function Login({ onCancelar }) {
     setPassword("");
   };
 
+  
+
   return (
     <div>
       <button onClick={onCancelar}>❌ Cancelar</button>

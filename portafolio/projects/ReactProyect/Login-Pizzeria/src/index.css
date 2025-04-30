@@ -13,28 +13,3 @@
   -moz-osx-font-smoothing: grayscale;
 
 }
-body{
-  width: 100vw;
-  padding: 0px;
-  margin: 0px;
-}
-ul{
-  display: flex;
-  justify-content: space-evenly;
-  background-color: white;
-  color: black;
-  height: 40px;
-  width: 80vw;
-  font-size: 25px;
-  margin: 0px;
-  padding: 0px;
-}
-
-li {
-  list-style: none;
-}
-li:hover {
-  background-color: aqua;
-  border-radius: 20px;
-  padding: 0px 10px;
-}
