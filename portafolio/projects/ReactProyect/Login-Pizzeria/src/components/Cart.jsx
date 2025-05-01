@@ -1,16 +1,6 @@
 import { useState } from 'react';
 
-function ArtCart ({nombrePizza, imgPizza, precPizza}) {
-    const [contador, setContador] = useState(0); 
-    const aumentar = () => {
-        setContador(contador + 1);
-      };
-    
-      const disminuir = () => {
-        if (contador > 0) {
-          setContador(contador - 1);
-        }
-      };
+function ArtCart ({nombrePizza, imgPizza, precPizza, disminuir, aumentar, contador}) {
     return (
         <div className='cartPizza'>
             <div>
@@ -21,7 +11,7 @@ function ArtCart ({nombrePizza, imgPizza, precPizza}) {
                 <strong>${precPizza}</strong>
                 <button onClick={disminuir}>-</button>
                 <strong>{contador}</strong>
-                <button onClick={aumentar}>-</button>
+                <button onClick={aumentar}>+</button>
             </div>
         </div>
     )
